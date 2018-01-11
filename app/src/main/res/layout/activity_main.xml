@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.baygaming.aplikasibuatanaksmp.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/idup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/islam" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:text="Info Islam"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/idtop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_below="@+id/idup"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/kabah" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Penjelasan Tentang Ka'bah"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="(Raga murtadha | 10-rpl | 11-01-2018)" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|right|center"
+                android:text='Aliran zamzamlah yang pertama kali mengubah wilayah gersang itu menjadi sebuah komunitas kecil tempat dimulainya peradaban baru dunia Islam.  Bangunan persegi bernama Kabah didaulat menjadi pusat dari kota itu sekaligus pusat ibadah seluruh umat Islam. Mengunjunginya adalah salah satu dari rukun Islam, Ibadah Haji.  Kabah masih tetap berdiri kokoh hingga saat ini dan diperkirakan masih terus berdiri hingga kiamat menjelang. Beberapa generasi pernah menjadi saksi berdirinya Kabah hingga berbagai kemelut menyelimutinya.  Ismail, putra Nabi Ibrahim dan Siti Hajar, yang kaki mungilnya pertama kali menyentuh sumber mata air zamzam. Akibat penemuan mata air abadi ini, Siti Hajar dan Ismail yang kala itu ditinggal oleh Ibrahim ke Kanaan di tengah padang, tiba-tiba kedatangan banyak musafir. Beberapa memutuskan untuk tinggal, beberapa lagi beranjak.  Ibrahim datang dan kemudian mendapatkan wahyu untuk mendirikan Kabah di kota kecil tersebut. Kabah sendiri berarti tempat dengan penghormatan dan prestise tertinggi.  Kabah yang didirikan Ibrahim terletak persis di tempat Kabah lama yang didirikan Nabi Adam hancur tertimpa banjir bandang pada zaman Nabi Nuh. Adam adalah Nabi yang pertama kali mendirikan Kabah.  Tercatat, 1500 SM adalah merupakan tahun pertama Kabah kembali didirikan. Berdua dengan putranya yang taat, Ismail, Ibrahim membangun Kabah dari bebatuan bukit Hira, Qubays, dan tempat-tempat lainnya.  Bangunan mereka semakin tinggi dari hari ke hari, dan kemudian selesai dengan panjang 30-31 hasta, lebarnya 20 hasta. Bangunan awal tanpa atap, hanyalah empat tembok persegi dengan dua pintu.  Celah di salah satu sisi bangunan diisi oleh batu hitam besar yang dikenal dengan nama Hajar Aswad. Batu ini tersimpan di bukit Qubays saat banjir besar melanda pada masa Nabi Nuh.  Batu ini istimewa, sebab diberikan oleh Malaikat Jibril. Hingga saat ini, jutaan umat Muslim dunia mencium batu ini ketika berhaji, sebuah lelaku yang dicontohkan oleh Rasulullah Muhammad.  Selesai dibangun, Allah memerintahkan Ibrahim untuk menyeru umat manusia berziarah ke Kabah yang didaulat sebagai Rumah Tuhan. Dari sinilah, awal mula haji, ibadah akbar umat Islam di seluruh dunia.  Karena tidak beratap dan bertembok rendah, sekitar dua meter, barang-barang berharga di dalamnya sering dicuri. Bangsa Quraisy yang memegang kendali atas Mekkah ribuan tahun setelah kematian Ibrahim berinisiatif untuk merenovasinya. Untuk melakukan hal ini, terlebih dahulu bangunan awal harus dirubuhkan.  Al-Walid bin Al-Mughirah Al-Makhzumy adalah orang yang pertama kali merobohkan Kabah untuk membangunnya menjadi bangunan yang baru.  Pada zaman Nabi Muhammad, renovasi juga pernah dilakukan pasca banjir besar melanda. Perselisihan muncul di antara keluarga-keluarga kaum Quraisy mengenai siapakah yang pantas memasukkan Hajar Aswad ke tempatnya di Kabah.  Rasulullah berperan besar dalam hal ini. Dalam sebuah kisah yang terkenal, Rasulullah meminta keempat suku untuk mengangkat Hajar Aswad secara bersama dengan menggunakan secarik kain. Ide ini berhasil menghindarkan perpecahan dan pertumpahan darah di kalangan bangsa Arab.  Renovasi terbesar dilakukan pada tahun 692. Sebelum renovasi, Kabah terletak di ruang sempit terbuka di tengah sebuah mesjid yang kini dikenal dengan Masjidil Haram. Pada akhir tahun 700-an, tiang kayu mesjid diganti dengan marmer dan sayap-sayap mesjid diperluas, ditambah dengan beberapa menara. Renovasi dirasa perlu, menyusul semakin berkembangnya Islam dan semakin banyaknya jemaah haji dari seluruh jazirah Arab dan sekitarnya.  Wajah Masjidil Haram modern dimulai saat renovasi tahun 1570 pada kepemimpinan Sultan Selim. Arsitektur tahun inilah yang kemudian dipertahankan oleh kerajaan Arab Saudi hingga saat ini.  Pada penyatuan Arab Saudi tahun 1932, negara ini menyatakan diri sebagai Pelindung Tempat Suci dan Raja Abdul Aziz adalah raja pertama yang menyandang gelar Penjaga Dua Mesjid Suci, Masjidil Haram dan Masjid Nabawi.  Pada pemerintahannya, Masjidil Haram diperluas hingga dapat memuat kapasitas 48.000 jemaah, sementara Masjid Nabawi diperluas hingga dapat memuat 17.000 jemaah.  Pada pemerintahan Raja Fahd tahun 1982, kapasitas Masjidil Haram diperluas hingga memuat satu juta jemaah. Renovasi ketiga selesai pada tahun 2005 dengan tambahan beberapa menara. Pada renovasi ketiga ini, sebanyak 500 tiang marmer didirikan, 18 gerbang tambahan juga dibuat. Selain itu, berbagai perangkat modern, seperti pendingin udara, eskalator dan sistem drainase juga ditambahkan.  Saat ini, pada masa kepemimpinan Raja Abdullah bin Abdul-Aziz, renovasi keempat tengah dilakukan hingga tahun 2020. Rencananya, Masjidil Haram akan diperluas hingga 35 persen, dengan kapasitas luar mesjid dapat menampung 800.000 hingga 1.120.000 jemaah. Jika rampung, bagian dalam Masjidil Haram akan dapat menampung hingga dua juta jemaah.  Banjir Kabah  Bencana alam yang mungkin sering terjadi di wilayah Mekkah adalah banjir. Terbesar tentu saja pada masa banjir bandang Nabi Nuh. Kala itu seluruh bangunan Kabah runtuh. Banjir juga terjadi beberapa kali di masa Nabi Muhammad. Sepeninggalnya, pada masa Khalifah Umar bin Khattab, banjir merusak dinding-dinding Kabah.  Salah satu banjir yang sempat terdokumentasikan adalah banjir besar pada tahun 1941. Dalam gambar yang dipublikasikan secara luas, terlihat bagian dalam Masjidil Haram terendam banjir hingga hampir setengah tinggi Kabah.  Di beberapa tempat bahkan mencapai leher orang dewasa. Banjir-banjir inilah yang kemudian membuat beberapa tiang mesjid yang terbuat dari kayu menjadi lapuk dan rapuh. Kerajaan Saudi terpaksa harus melakukan perbaikan beberapa kali untuk mengatasi hal ini.  Banjir sering terjadi di Mekkah karena letak geografis kota tersebut yang diapit beberapa bukit. Hal ini menjadikan Mekkah berada di dataran rendah yang letaknya seperti mangkuk. Air hujan tidak dapat dapat mudah diserap oleh tanah, mengingat lahan Timur Tengah yang tandus. Alhasil banjir bisa berlangsung selama beberapa lama. Ditambah lagi, sistem drainase kala itu tidak sebaik sekarang.  Selain banjir, berbagai insiden pertumpahan darah tercatat pernah mewarnai sejarah Masjidil Haram. Mulai dari zaman sebelum Nabi Muhammad lahir hingga ke zaman modern di abad ke 20. Beberapa insiden tersebut diakhiri dengan kemenangan para penguasa Kabah.  Serangan Gajah  Serangan terhadap Kabah yang paling terkenal terjadi pada tahun 571 Masehi, tahun kelahiran Nabi Muhammad. Kala itu, sebanyak 60.000 pasukan gajah yang dipimpin oleh Gubernur Yaman, Abrahah, berencana menyerbu Mekkah dan menghancurkan Kabah.  Negara Yaman adalah salah satu negara Kristen besar kala itu. Sebuah gereja besar yang indah didirikan pada pemerintahan Raja Yaman, Habshah. Gereja tersebut bernama Qullais. Abrahah sebagai pembina gereja bersumpah akan memalingkan pemujaan warga Arab dari Kabah di Mekkah ke gerejanya di Yaman.  Alkisah, mendengar hal ini, seorang Arab dari qabilah Bani Faqim bin Addiy tersinggung kemudian masuk ke dalam gereja dan membuang hajat di dalamnya. Abrahah marah luar biasa dan bersumpah akan meruntuhkan Kabah. Berangkatlah dia beserta tentara terkuatnya, menunggang 60.000 ekor gajah.  Tidak ada satupun kekuatan kabilah Arab Saudi yang mampu menandingi kekuatan puluhan ribu tentara gajah tersebut. Berdasarkan komando dari kakek Muhammad, Abdul Mutalib, para penduduk Mekkah mengungsi ke puncak-puncak bukit di sekeliling Kabah. Berangkatlah rombongan tentara Abrahah menuju Kabah, hendak menghancurkan bangunan mulia tersebut.  Menurut kisah, laju tentara gajah terhenti akibat serangan dari ribuan burung Ababil. Burung-burung ini membawa tiga butir batu panas di kedua kakinya dan paruhnya. Dilepaskannya batu-batu tersebut di atas tentara gajah. Batu yang konon berasal dari neraka itu menembus daging para tentara dan gajah-gajah mereka. Sebuah tafsir mengatakan burung-burung itu membawa penyakit cacar yang menyebabkan para tentara Abrahah tewas akibat bisul yang sangat panas.  Inilah sebabnya, tahun penyerangan tentara Abrahah ke Mekkah dinamakan sebagai Tahun Gajah. Kisah ini juga tertulis jelas di surat Al Fiil di kitab suci Al-Quran. "Dia mengirimkan kepada mereka burung yang berbondong-bondong, yang melempari mereka dengan batu dari tanah yang terbakar, lalu Dia menjadikan mereka seperti daun-daun yang dimakan (ulat)." (Al Fiil: 3-4).  Bentrok dengan Iran  Di zaman modern, insiden paling sering adalah bentrok aparat keamanan Arab Saudi dengan para demonstran asal Iran. Kehadiran para demonstran merupakan perintah dari pemerintah Iran agar para jemaah haji Iran menyampaikan protes terhadap kerajaan Saudi.  Kerusuhan terparah terjadi pada 31 Juli 1987 yang menewaskan 401 orang. Di antaranya adalah 275 warga Iran, 85 warga Arab Saudi, dan 42 jemaah haji asal negara lain. Sebanyak 643 orang terluka, kebanyakan adalah jemaah haji Iran.  Perseteruan antara Arab Saudi dengan Iran sudah berlangsung relatif lama. Dimulai saat Muhammad bin Abdul Wahhab, ulama Salaf kenamaan Arab Saudi, memerintahkan penghancuran beberapa makam yang dikultuskan umat Islam di Hejaz, termasuk makam ulama Syiah Al-Baqi, pada tahun 1925.  Tindakan ini tidak ayal membuat marah pemerintahan dan rakyat Iran yang mayoritas Syiah. Kemelut pun dimulai, Iran menyerukan penggulingan pemerintahan di Arab Saudi dan melarang seluruh warga Iran pergi haji pada tahun 1927.  Ketegangan bertambah parah setelah pada tahun 1943, pemerintah Arab Saudi memenggal kepala seorang jemaah haji Iran karena membawa kotoran manusia di pakaiannya ke dalam Masjidil Haram di Mekkah.  Iran protes keras dan melarang warganya pergi haji hingga tahun 1948.  Sejak saat itu, demonstrasi jemaah haji Iran terus dilakukan di Mekkah. Ini berkat imbauan Ayatullah Khomeini pada tahun 1971 yang memerintahkan setiap jemaah haji Iran untuk berhaji sambil menyampaikan pandangan politik mereka terhadap pemerintah Arab Saudi. Para jemaah Iran menyebut demonstrasi ini dengan nama "Menjaga Jarak dengan Para Musryikin."  Pada tahun 1982, situasi kedua negara sempat tenang. Khomeini memerintahkan rakyatnya menjaga ketertiban dan perdamaian, tidak menyebarkan pamflet-pamflet propaganda, dan untuk tidak mengkritik pemerintahan Arab Saudi.  Sebagai balasannya, kerajaan Arab Saudi membebaskan jemaah haji Iran untuk kembali berhaji. Sebelumnya, Saudi membatasi jumlah jemaah haji asal Iran untuk menghindari konflik.  Ketegangan kembali terjadi pada Jumat, 31 Juli 1987. Para jemaah haji Iran melakukan pawai protes menentang para musuh Islam, yaitu Israel dan Amerika Serikat, di kota Mekkah. Ketika sampai di depan Masjidil Haram, mereka diblokir oleh aparat keamanan Arab Saudi, namun mereka tetap memaksa masuk.  Bentrokan berdarah kemudian terjadi yang mengakibatkan situasi kacau dengan beberapa orang terinjak-injak oleh massa yang panik.  Ada beberapa versi pemicu kematian ratusan orang pada insiden ini. Pemerintah Iran mengatakan, aparat keamanan Saudi melepaskan tembakan ke arah demonstran damai, sementara Arab Saudi mengatakan bahwa korban tewas akibat terjepit dan terinjak jemaah yang panik. Akibat hal ini, hubungan kedua negara kembali renggang dan pemerintah Arab Saudi kembali menerapkan pembatasan jemaah haji Iran.  Mahdi Palsu  Peristiwa berdarah lainnya terjadi pada 20 November 1979. Kala itu ratusan orang bersenjata menguasai Masjidil Haram dan menyandera puluhan ribu jemaah haji di dalamnya.  Penyanderaan dipimpin oleh Juhaiman Ibnu Muhammad Ibnu Saif al-Otaibi yang mengatakan saudara iparnya, Muhammad bin Abd Allah Al-Qahtani, adalah Imam Mahdi atau sang penyelamat akhir zaman.  Dilaporkan sebanyak 400-500 militan Otaibi, termasuk di dalamnya wanita dan anak-anak, mengeluarkan senjata yang mereka sembunyikan di balik baju dan merantai gerbang Masjidil Haram. Mereka memerintahkan para jemaah untuk tunduk kepada Mahdi palsu, Al-Qahtani. Penyanderaan berlangsung selama dua minggu, sebelum akhirnya para militan diberantas oleh pasukan bersenjata gabungan antara Arab Saudi dengan beberapa negara.  Pasukan Arab Saudi sempat dipukul mundur karena hebatnya persenjataan para militan. Seluruh warga Mekkah dievakuasi ke beberapa daerah.  Pasukan kerajaan siap melakukan gempuran mematikan. Namun, mereka harus meminta izin dari ulama besar Arab Saudi, Syaikh Abdul Aziz bin Baz, yang telah melarang segala jenis kekerasan di Masjidil Haram. Akhirnya dia mengeluarkan fatwa penyerangan mematikan untuk mengambil alih Kabah.  Dilaporkan 255 jemaat haji dan militan Otaibi tewas dalam penyerangan tersebut, sebanyak 560 orang terluka. Dari sisi tentara Arab Saudi, sebanyak 127 tewas dan 451 terluka.  Berbagai cerita berbeda mengisahkan saat-saat penyerangan oleh tentara gabungan Arab Saudi, Pakistan dan Perancis.  Salah satu laporan mengatakan tentara membanjiri Masjidil Haram dengan air dan mengalirinya dengan listrik, menyetrum para militan. Laporan lainnya mengatakan para tentara menggunakan gas beracun. Pasukan Perancis dipanggil karena pasukan Arab Saudi tidak berdaya.  Tentara Perancis ini dikabarkan menjadi Muslim dahulu sebelum masuk Masjidil Haram. Langkah ini mereka lakukan lantaran Masjidil Haram hanya boleh dimasuki oleh umat Muslim. Lihat buku KUdeta Makkah untuk menelisik persoalan ini lebih lanjut. Allahu alam.[ ]'
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_green_light"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="rabbaanii"
+            app:srcCompat="@drawable/rbs" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="line"
+            app:srcCompat="@drawable/lne" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="instagram"
+            app:srcCompat="@drawable/ig" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="facebook"
+            app:srcCompat="@drawable/fb" />
+    </LinearLayout>
+</RelativeLayout>
